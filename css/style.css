@@ -1,0 +1,128 @@
+body{
+    /* font-family: "Poppins", sans-serif; */
+    background: #420606;
+}p{
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+    
+}a
+{
+    background-color: cornsilk;
+}
+a:hover,
+a:focus{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3%;
+}
+
+/* Side bar */
+
+.wrapper{
+    display: flex;
+    text-decoration: none;
+    transition: 0.3%;
+}
+#sidebar{
+    min-width: 230px;
+    max-width: 230px;
+    background: #34495e;
+    color: #fff;
+    transition: all 0.3s;
+}
+#sidebar .active{
+    margin-left: absolute;
+}
+#sidebar .sidebar-header{
+    padding: 15px;
+    background: #2c3e50;
+}
+#sidebar ul.components{
+    padding: 10px;
+}
+#sidebar ul p{
+    color: #fff;
+    padding: 10px;
+}
+ul li a{
+    padding: 5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color : whitesmoke;
+}
+#sidebar ul li a:hover{
+    color: gray;
+    text-decoration: none;
+}
+ul li.active a{
+    color: #fff;
+}
+#content{
+    width: 100%;
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+.pel{
+    font-size: 13px;
+}.dash{
+text-decoration: none;
+color: white;
+}.dash:hover{
+    color: whitesmoke;
+    text-decoration: none;  
+}.kotak{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: none;
+  background: #34495e;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn:hover {
+  color: gray;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.active2 {
+    background-color: #34495e;
+    color: white;
+  }
+
+.dropdown-container {
+  display: none;
+  background-color: #2c3e50;
+  font-size: 15px; 
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
