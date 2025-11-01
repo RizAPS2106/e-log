@@ -13,4 +13,4 @@ Aplikasi berbasis website untuk mengelola data poin perilaku siswa juga data pem
 - Menampilkan Log Pelanggaran Siswa.
 - Skor Siswa berdasarkan Log Pelanggaran.
 
-##### Developed By, Rizky Aditya Perkasa Susila
+##### Developed By, My School Group (including Me)
